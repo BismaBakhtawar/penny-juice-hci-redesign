@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Penny Juice | Ordering</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header and Navigation -->
+  <header class="border-bottom sticky-top bg-white shadow-sm">
+    <div class="top-bar d-flex align-items-center justify-content-between px-3 px-lg-5 py-2">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge bg-success text-uppercase">Free Nationwide Shipping</span>
+        <span class="text-muted small">Kid-first juice concentrates for childcare centers</span>
+      </div>
+      <div class="d-flex align-items-center gap-3">
+        <a class="d-flex align-items-center gap-1 fw-semibold text-decoration-none text-dark" href="tel:+15633403661">
+          <i class="bi bi-telephone-fill text-primary"></i>
+          <span>(563) 340-3661</span>
+        </a>
+        <a class="btn btn-sm btn-primary" href="ordering.html"><i class="bi bi-bag-plus-fill me-1" aria-hidden="true"></i>Order Now</a>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white px-3 px-lg-5">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=120&q=80" alt="Penny Juice logo mark" class="brand-mark rounded-circle">
+        <div class="d-flex flex-column lh-1">
+          <span class="fw-bold text-primary">Penny Juice</span>
+          <small class="text-uppercase text-muted">It Makes Cents</small>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+        <ul class="navbar-nav gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="index.html"><i class="bi bi-house-door-fill me-1" aria-hidden="true"></i>Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="flavors.html"><i class="bi bi-cup-straw me-1" aria-hidden="true"></i>Flavors</a></li>
+          <li class="nav-item"><a class="nav-link" href="benefits.html"><i class="bi bi-star-fill me-1" aria-hidden="true"></i>Benefits</a></li>
+          <li class="nav-item"><a class="nav-link active" href="ordering.html" aria-current="page"><i class="bi bi-bag-check me-1" aria-hidden="true"></i>How to Order</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html"><i class="bi bi-people-fill me-1" aria-hidden="true"></i>About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html"><i class="bi bi-envelope-paper-heart me-1" aria-hidden="true"></i>Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section text-white" style="background-image:url('assets/order2.webp'); min-height: 45vh;">
+      <div class="overlay"></div>
+      <div class="container position-relative py-5">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-7">
+            <h1 class="display-5 fw-bold">Ordering is simple</h1>
+            <p class="lead mb-4">Pick flavors in increments of six bottles. We pack, ship free, and you mix 1:7 with water. Need help? Call anytime.</p>
+            <div class="d-flex flex-wrap gap-2">
+              <a class="btn btn-lg btn-primary" href="#order-form"><i class="bi bi-journal-text me-2" aria-hidden="true"></i>Start form</a>
+              <a class="btn btn-lg btn-outline-light" href="flavors.html"><i class="bi bi-list-stars me-2" aria-hidden="true"></i>See flavors</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Order Steps and Form Section -->
+    <section class="py-5 bg-primary text-white">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-5">
+            <h2 class="fw-bold">3 quick steps</h2>
+            <p class="text-white-50 mb-4">Pick flavors, confirm quantities in increments of 6, and we deliver free to your door. Pay now or choose direct billing.</p>
+            <ol class="list-group list-group-numbered list-group-flush text-white">
+              <li class="list-group-item bg-primary d-flex align-items-start gap-2 border-0 px-0">
+                <i class="bi bi-bag-check-fill text-warning fs-5"></i>
+                <div>
+                  <h6 class="mb-1 text-white">Choose your case</h6>
+                  <small class="text-white-50">Select any 6 bottles—mix color-free and classic flavors.</small>
+                </div>
+              </li>
+              <li class="list-group-item bg-primary d-flex align-items-start gap-2 border-0 px-0">
+                <i class="bi bi-box-seam-fill text-warning fs-5"></i>
+                <div>
+                  <h6 class="mb-1 text-white">We pack and ship free</h6>
+                  <small class="text-white-50">Nationwide delivery, temperature-stable packaging.</small>
+                </div>
+              </li>
+              <li class="list-group-item bg-primary d-flex align-items-start gap-2 border-0 px-0">
+                <i class="bi bi-rocket-takeoff-fill text-warning fs-5"></i>
+                <div>
+                  <h6 class="mb-1 text-white">Serve in minutes</h6>
+                  <small class="text-white-50">Mix 1:7 with water—no refrigeration needed.</small>
+                </div>
+              </li>
+            </ol>
+          </div>
+          <div class="col-lg-7">
+            <div class="card shadow-lg border-0" id="order-form">
+              <div class="card-body p-4">
+                <div class="d-flex justify-content-between align-items-start mb-3">
+                  <div>
+                    <h3 class="fw-semibold mb-1">Order Penny Juice Concentrates</h3>
+                    <p class="text-muted mb-0 small">We respond within one business day. Need help? Call <a href="tel:+15633403661" class="text-decoration-none">(563) 340-3661</a>.</p>
+                  </div>
+                  <span class="badge bg-success">Available 24/7</span>
+                </div>
+                <div id="orderStatus" class="alert d-none" role="alert"></div>
+                <form class="row g-3 needs-validation" id="orderForm" novalidate>
+                  <div class="col-md-6">
+                    <label for="centerName" class="form-label">Center name</label>
+                    <input type="text" class="form-control" id="centerName" name="centerName" placeholder="Sunrise Childcare" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="contactName" class="form-label">Contact name</label>
+                    <input type="text" class="form-control" id="contactName" name="contactName" placeholder="Alex Rivera" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="phone" class="form-label">Phone</label>
+                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="(563) 340-3661" required>
+                  </div>
+                    <div class="col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="you@center.com" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="address" class="form-label">Street address</label>
+                    <input type="text" class="form-control" id="address" name="address" placeholder="915 40th Ave" required>
+                  </div>
+                  <div class="col-md-4">
+                    <label for="city" class="form-label">City</label>
+                    <input type="text" class="form-control" id="city" name="city" placeholder="Bettendorf" required>
+                  </div>
+                  <div class="col-md-2">
+                    <label for="state" class="form-label">State</label>
+                    <input type="text" class="form-control" id="state" name="state" placeholder="IA" maxlength="2" required>
+                  </div>
+                  <div class="col-md-3">
+                    <label for="zip" class="form-label">ZIP</label>
+                    <input type="text" class="form-control" id="zip" name="zip" placeholder="52722" required>
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label">Choose your flavors (enter quantity)</label>
+                    <div class="row g-2">
+                      <div class="col-sm-6 col-md-4">
+                        <div class="input-group">
+                          <span class="input-group-text">Apple (CF)</span>
+                          <input type="number" min="0" class="form-control" aria-label="Apple color free quantity" required>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-4">
+                        <div class="input-group">
+                          <span class="input-group-text">White Grape (CF)</span>
+                          <input type="number" min="0" class="form-control" aria-label="White grape color free quantity" required>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-4">
+                        <div class="input-group">
+                          <span class="input-group-text">Strawberry Banana</span>
+                          <input type="number" min="0" class="form-control" aria-label="Strawberry banana quantity" required>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-4">
+                        <div class="input-group">
+                          <span class="input-group-text">Citrus Punch</span>
+                          <input type="number" min="0" class="form-control" aria-label="Citrus punch quantity" required>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-4">
+                        <div class="input-group">
+                          <span class="input-group-text">Peach Mango (CF)</span>
+                          <input type="number" min="0" class="form-control" aria-label="Peach mango color free quantity" required>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-4">
+                        <div class="input-group">
+                          <span class="input-group-text">Blue Raspberry</span>
+                          <input type="number" min="0" class="form-control" aria-label="Blue raspberry quantity" required>
+                        </div>
+                      </div>
+                    </div>
+                    <small class="text-muted d-block mt-2">Order bottles in increments of 6. Need help with quantities? Call us and we’ll confirm your mix.</small>
+                  </div>
+                  <div class="col-12">
+                    <label for="notes" class="form-label">Special instructions</label>
+                    <textarea class="form-control" id="notes" name="notes" rows="3" placeholder="Preferred delivery times, billing notes, etc." required></textarea>
+                  </div>
+                  <div class="col-12 d-flex align-items-center justify-content-between flex-wrap gap-2">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="billing">
+                      <label class="form-check-label" for="billing">Bill me directly (instead of paying now).</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg"><i class="bi bi-send-check-fill me-2" aria-hidden="true"></i>Submit order</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="footer text-white" id="contact">
+    <div class="container py-5">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=120&q=80" alt="Penny Juice logo mark" class="brand-mark rounded-circle">
+            <div>
+              <h5 class="mb-1">Penny Juice of America</h5>
+              <small class="text-white-50">Kid-first juice concentrates since 2001</small>
+            </div>
+          </div>
+          <p class="text-white-50">915 40th Ave, Bettendorf, IA 52722</p>
+          <div class="d-flex flex-column gap-1">
+            <a class="text-white text-decoration-none" href="mailto:pennyjuice@hotmail.com"><i class="bi bi-envelope me-1"></i>pennyjuice@hotmail.com</a>
+            <a class="text-white text-decoration-none" href="tel:+15633403661"><i class="bi bi-telephone me-1"></i>(563) 340-3661</a>
+            <span class="text-white-50"><i class="bi bi-printer me-1"></i>Fax: (563) 386-6200</span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h6 class="fw-semibold">Stay connected</h6>
+          <div class="d-flex gap-3 mt-2">
+            <a class="social-circle" href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a class="social-circle" href="#" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+            <a class="social-circle" href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          </div>
+          <form class="mt-3">
+            <label for="emailUpdates" class="form-label">Get product updates</label>
+            <div class="input-group">
+              <input type="email" id="emailUpdates" class="form-control" placeholder="you@example.com" aria-label="Email for updates">
+              <button class="btn btn-warning" type="submit"><i class="bi bi-envelope-paper-heart me-1" aria-hidden="true"></i>Subscribe</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-4">
+          <h6 class="fw-semibold">Support</h6>
+          <ul class="list-unstyled text-white-50">
+            <li><a class="text-white text-decoration-none" href="#">Privacy Policy</a></li>
+            <li><a class="text-white text-decoration-none" href="#">Accessibility</a></li>
+            <li><a class="text-white text-decoration-none" href="#">Nutritional facts</a></li>
+            <li><a class="text-white text-decoration-none" href="#">Shipping & billing</a></li>
+          </ul>
+          <div class="d-flex gap-2 mt-2">
+            <img src="assets/visa.svg" alt="Visa accepted" class="payment-icon">
+            <img src="assets/mastercard.svg" alt="Mastercard accepted" class="payment-icon">
+            <img src="assets/discover.svg" alt="Discover accepted" class="payment-icon">
+            <img src="assets/paypal.svg" alt="PayPal accepted" class="payment-icon">
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-wrap justify-content-between align-items-center mt-4 pt-3 border-top border-light-subtle text-white-50">
+        <small>© 2025 Penny Juice of America. All rights reserved.</small>
+        <small>Leader in childcare juice | Free nationwide shipping</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  <!-- Order Form Validation -->
+  <script>
+    const orderForm = document.getElementById('orderForm');
+    const orderStatus = document.getElementById('orderStatus');
+
+    if (orderForm && orderStatus) {
+      orderForm.addEventListener('submit', (event) => {
+        orderStatus.classList.add('d-none');
+        orderStatus.classList.remove('alert-danger', 'alert-success');
+
+        if (!orderForm.checkValidity()) {
+          event.preventDefault();
+          event.stopPropagation();
+          orderStatus.textContent = 'Please fill out all fields before submitting your order.';
+          orderStatus.classList.add('alert', 'alert-danger');
+          orderStatus.classList.remove('d-none');
+          orderForm.classList.add('was-validated');
+          orderForm.reportValidity();
+          return;
+        }
+
+        event.preventDefault();
+        orderStatus.textContent = 'Order complete! We received your details.';
+        orderStatus.classList.add('alert', 'alert-success');
+        orderStatus.classList.remove('d-none');
+        orderForm.classList.remove('was-validated');
+        orderForm.reset();
+      });
+    }
+  </script>
+</body>
+</html>
